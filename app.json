@@ -1,66 +1,99 @@
 {
-  "name": "security-user",
-  "slug": "security-user",
-  "scheme": "security-user",
-  "version": "1.0.0",
-  "orientation": "portrait",
-  "userInterfaceStyle": "automatic",
-  "icon": "./assets/images/app-icon-all.png",
-  "updates": {
-    "fallbackToCacheTimeout": 0
-  },
-  "newArchEnabled": true,
-  "jsEngine": "hermes",
-  "assetBundlePatterns": [
-    "**/*"
-  ],
-  "android": {
-    "icon": "./assets/images/app-icon-android-legacy.png",
-    "package": "com.securityuser",
-    "adaptiveIcon": {
-      "foregroundImage": "./assets/images/app-icon-android-adaptive-foreground.png",
-      "backgroundImage": "./assets/images/app-icon-android-adaptive-background.png"
+  "expo": {
+    "name": "security-khai",
+    "slug": "security-khai",
+    "scheme": "security-khai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/images/app-icon-all.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
     },
-    "allowBackup": false,
-    "edgeToEdgeEnabled": true
-  },
-  "ios": {
-    "icon": "./assets/images/app-icon-ios.png",
-    "supportsTablet": true,
-    "bundleIdentifier": "com.securityuser"
-  },
-  "web": {
-    "favicon": "./assets/images/app-icon-web-favicon.png",
-    "bundler": "metro"
-  },
-  "plugins": [
-    "expo-localization",
-    "expo-font",
-    [
-      "expo-splash-screen",
-      {
-        "image": "./assets/images/app-icon-android-adaptive-foreground.png",
-        "imageWidth": 300,
-        "resizeMode": "contain",
-        "backgroundColor": "#191015"
-      }
+    "newArchEnabled": true,
+    "jsEngine": "hermes",
+    "assetBundlePatterns": [
+      "**/*"
     ],
-    [
-      "react-native-edge-to-edge",
-      {
-        "android": {
-          "parentTheme": "Light",
-          "enforceNavigationBarContrast": false
-        }
+    "android": {
+      "icon": "./assets/images/app-icon-android-legacy.png",
+      "package": "com.khaiduc03.securityuser",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/app-icon-android-adaptive-foreground.png",
+        "backgroundImage": "./assets/images/app-icon-android-adaptive-background.png"
+      },
+      "allowBackup": false,
+      "edgeToEdgeEnabled": true,
+      "splash": {
+        "backgroundColor": "#000",
+        "image": "./assets/images/app-icon-android-adaptive-foreground.png",
+        "imageWidth": 80,
+        "resizeMode": "contain"
       }
-    ]
-  ],
-  "experiments": {
-    "tsconfigPaths": true
-  },
-  "extra": {
-    "ignite": {
-      "version": "11.1.2"
+    },
+    "ios": {
+      "icon": "./assets/images/app-icon-ios.png",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.khaiduc03.securityuser",
+      "splash": {
+        "backgroundColor": "#000",
+        "image": "./assets/images/app-icon-ios.png",
+        "imageWidth": 80,
+        "resizeMode": "contain"
+      },
+      "privacyManifests": {
+        "NSPrivacyAccessedAPITypes": [
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryUserDefaults",
+            "NSPrivacyAccessedAPITypeReasons": [
+              "CA92.1"
+            ]
+          }
+        ]
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/app-icon-web-favicon.png",
+      "bundler": "metro",
+      "splash": {
+        "backgroundColor": "#000"
+      }
+    },
+    "plugins": [
+      "expo-localization",
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/app-icon-all.png",
+          "imageWidth": 80,
+          "resizeMode": "contain",
+          "backgroundColor": "#000"
+        }
+      ],
+      [
+        "react-native-edge-to-edge",
+        {
+          "android": {
+            "parentTheme": "Light",
+            "enforceNavigationBarContrast": false
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "extra": {
+      "ignite": {
+        "version": "11.1.2"
+      }
+    },
+    "splash": {
+      "backgroundColor": "#000",
+      "image": "./assets/images/app-icon-all.png",
+      "imageWidth": 80,
+      "resizeMode": "contain"
     }
   }
 }

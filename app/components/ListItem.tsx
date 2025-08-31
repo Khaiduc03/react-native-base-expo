@@ -12,8 +12,9 @@ import { useAppTheme } from "@/theme/context"
 import { $styles } from "@/theme/styles"
 import type { ThemedStyle } from "@/theme/types"
 
-import { Icon, IconTypes } from "./Icon"
+import { Icon } from "./Icon"
 import { Text, TextProps } from "./Text"
+import { IconTypes } from "@assets/icons"
 
 export interface ListItemProps extends TouchableOpacityProps {
   /**

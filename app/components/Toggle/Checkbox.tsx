@@ -4,8 +4,8 @@ import { Image, ImageStyle, Animated, StyleProp, View, ViewStyle } from "react-n
 import { useAppTheme } from "@/theme/context"
 import { $styles } from "@/theme/styles"
 
-import { iconRegistry, IconTypes } from "../Icon"
 import { $inputOuterBase, BaseToggleInputProps, ToggleProps, Toggle } from "./Toggle"
+import { iconRegistry, IconTypes } from "@assets/icons"
 
 export interface CheckboxToggleProps extends Omit<ToggleProps<CheckboxInputProps>, "ToggleInput"> {
   /**

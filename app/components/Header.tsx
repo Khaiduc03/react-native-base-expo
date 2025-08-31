@@ -15,8 +15,9 @@ import { $styles } from "@/theme/styles"
 import type { ThemedStyle } from "@/theme/types"
 import { ExtendedEdge, useSafeAreaInsetsStyle } from "@/utils/useSafeAreaInsetsStyle"
 
-import { IconTypes, PressableIcon } from "./Icon"
+import { PressableIcon } from "./Icon"
 import { Text, TextProps } from "./Text"
+import { IconTypes } from "@assets/icons"
 
 export interface HeaderProps {
   /**

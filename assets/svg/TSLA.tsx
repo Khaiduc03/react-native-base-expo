@@ -1,0 +1,12 @@
+import * as React from "react"
+import Svg, { Path } from "react-native-svg"
+import type { SvgProps } from "react-native-svg"
+const TSLA = (props: SvgProps) => (
+  <Svg width={24} height={24} viewBox="0 0 40 40" fill="none" {...props}>
+    <Path
+      d="M20 36L0 16.2667L7.62889 4H32.3711L40 16.2667L20 36ZM22 18V15.56C25.6 15.7378 28.96 16.44 30 17.3489C28.7911 18.4089 24.46 19.18 20 19.18C15.54 19.18 11.2089 18.4089 10 17.3489C11.0289 16.4378 14.4 15.7489 18 15.5489V18H22ZM10 17.34V18.8089C11.0289 19.72 14.3889 20.4089 18 20.6089V26H22V20.6C25.6 20.42 28.9689 19.72 30 18.8089V15.88C28.9689 14.9689 25.6 14.2689 22 14.08V12H28V9H12V12H18V14.08C14.3889 14.2689 11.0289 14.9689 10 15.88V17.34Z"
+      fill={props.fill ?? '#009393'} 
+     fillOpacity={1}/>
+  </Svg>
+)
+export default TSLA

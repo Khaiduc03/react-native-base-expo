@@ -37,7 +37,7 @@ const fonts = {
   },
   inter: {
     light: "InterLight",
-    regular: "InterRegular",
+    normal: "InterRegular",
     medium: "InterMedium",
     semiBold: "InterSemiBold",
     bold: "InterBold",

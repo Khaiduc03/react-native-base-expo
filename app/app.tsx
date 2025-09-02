@@ -33,7 +33,8 @@ import { loadDateFnsLocale } from "./utils/formatDate"
 import * as storage from "./utils/storage"
 import { initializeGoogleSignIn } from "./utils/initializeGoogleSignIn"
 import { useInitialRootStore } from "./models/helpers/useStores"
-
+import { AuthProvider } from "./context/AuthContext"
+import { ToastProvider } from "react-native-toast-notifications"
 export const NAVIGATION_PERSISTENCE_KEY = "NAVIGATION_STATE"
 
 // Web linking configuration
@@ -106,11 +107,15 @@ export function App() {
     <SafeAreaProvider initialMetrics={initialWindowMetrics}>
       <KeyboardProvider>
         <ThemeProvider>
-          <AppNavigator
-            linking={linking}
-            initialState={initialNavigationState}
-            onStateChange={onNavigationStateChange}
-          />
+          <ToastProvider offsetTop={60}>
+            <AuthProvider>
+              <AppNavigator
+                linking={linking}
+                initialState={initialNavigationState}
+                onStateChange={onNavigationStateChange}
+              />
+            </AuthProvider>
+          </ToastProvider>
         </ThemeProvider>
       </KeyboardProvider>
     </SafeAreaProvider>

@@ -24,8 +24,8 @@
         <action android:name="android.intent.action.VIEW"/>
         <category android:name="android.intent.category.DEFAULT"/>
         <category android:name="android.intent.category.BROWSABLE"/>
-        <data android:scheme="security-khai"/>
-        <data android:scheme="exp+security-khai"/>
+        <data android:scheme="Deepinvest"/>
+        <data android:scheme="exp+deepinvest"/>
       </intent-filter>
     </activity>
   </application>

@@ -9,27 +9,27 @@
 /* Begin PBXBuildFile section */
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		53785171822B4FD0B0E5A95E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 51AC6C0893814322B8CA394D /* PrivacyInfo.xcprivacy */; };
-		774EFC9785D9316D0C23BB6B /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C01E8DC791FE2F87874CD4E /* ExpoModulesProvider.swift */; };
+		52966D07FE564363AE19D7AF /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 940EDBB795194F8FABE74AF6 /* PrivacyInfo.xcprivacy */; };
+		5E03FACD24CB549A236F1C28 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020004C8731480B49FEBEA33 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
-		F1D77B78EF104F5EF4D959E5 /* libPods-securitykhai.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA012D7E11816BB459D09B42 /* libPods-securitykhai.a */; };
+		FB3445C98CA24EBE753DCC91 /* libPods-Deepinvest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC6C3D38F4C416548320E66 /* libPods-Deepinvest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0BF03185C679CA51DBB1F88B /* Pods-securitykhai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-securitykhai.release.xcconfig"; path = "Target Support Files/Pods-securitykhai/Pods-securitykhai.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* securitykhai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = securitykhai.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = securitykhai/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = securitykhai/Info.plist; sourceTree = "<group>"; };
-		191173644F6F6428DEDE106D /* Pods-securitykhai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-securitykhai.debug.xcconfig"; path = "Target Support Files/Pods-securitykhai/Pods-securitykhai.debug.xcconfig"; sourceTree = "<group>"; };
-		51AC6C0893814322B8CA394D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = PrivacyInfo.xcprivacy; path = securitykhai/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		6C01E8DC791FE2F87874CD4E /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-securitykhai/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = securitykhai/SplashScreen.storyboard; sourceTree = "<group>"; };
+		020004C8731480B49FEBEA33 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-Deepinvest/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Deepinvest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deepinvest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Deepinvest/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Deepinvest/Info.plist; sourceTree = "<group>"; };
+		1470521B70916B3F771D3CDE /* Pods-Deepinvest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deepinvest.debug.xcconfig"; path = "Target Support Files/Pods-Deepinvest/Pods-Deepinvest.debug.xcconfig"; sourceTree = "<group>"; };
+		526225E56CDE37DE8C90687B /* Pods-Deepinvest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deepinvest.release.xcconfig"; path = "Target Support Files/Pods-Deepinvest/Pods-Deepinvest.release.xcconfig"; sourceTree = "<group>"; };
+		940EDBB795194F8FABE74AF6 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = PrivacyInfo.xcprivacy; path = Deepinvest/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = Deepinvest/SplashScreen.storyboard; sourceTree = "<group>"; };
+		ADC6C3D38F4C416548320E66 /* libPods-Deepinvest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Deepinvest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		EA012D7E11816BB459D09B42 /* libPods-securitykhai.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-securitykhai.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = securitykhai/AppDelegate.swift; sourceTree = "<group>"; };
-		F11748442D0722820044C1D9 /* securitykhai-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "securitykhai-Bridging-Header.h"; path = "securitykhai/securitykhai-Bridging-Header.h"; sourceTree = "<group>"; };
+		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Deepinvest/AppDelegate.swift; sourceTree = "<group>"; };
+		F11748442D0722820044C1D9 /* Deepinvest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Deepinvest-Bridging-Header.h"; path = "Deepinvest/Deepinvest-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,50 +37,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1D77B78EF104F5EF4D959E5 /* libPods-securitykhai.a in Frameworks */,
+				FB3445C98CA24EBE753DCC91 /* libPods-Deepinvest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13B07FAE1A68108700A75B9A /* securitykhai */ = {
+		13B07FAE1A68108700A75B9A /* Deepinvest */ = {
 			isa = PBXGroup;
 			children = (
 				F11748412D0307B40044C1D9 /* AppDelegate.swift */,
-				F11748442D0722820044C1D9 /* securitykhai-Bridging-Header.h */,
+				F11748442D0722820044C1D9 /* Deepinvest-Bridging-Header.h */,
 				BB2F792B24A3F905000567C9 /* Supporting */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				51AC6C0893814322B8CA394D /* PrivacyInfo.xcprivacy */,
+				940EDBB795194F8FABE74AF6 /* PrivacyInfo.xcprivacy */,
 			);
-			name = securitykhai;
+			name = Deepinvest;
 			sourceTree = "<group>";
 		};
-		187D41823C0C6649307E3CFC /* securitykhai */ = {
+		23272B715ABCF8CA66B3A365 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6C01E8DC791FE2F87874CD4E /* ExpoModulesProvider.swift */,
+				1470521B70916B3F771D3CDE /* Pods-Deepinvest.debug.xcconfig */,
+				526225E56CDE37DE8C90687B /* Pods-Deepinvest.release.xcconfig */,
 			);
-			name = securitykhai;
-			sourceTree = "<group>";
-		};
-		27F394760B431744C0EAA043 /* ExpoModulesProviders */ = {
-			isa = PBXGroup;
-			children = (
-				187D41823C0C6649307E3CFC /* securitykhai */,
-			);
-			name = ExpoModulesProviders;
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				EA012D7E11816BB459D09B42 /* libPods-securitykhai.a */,
+				ADC6C3D38F4C416548320E66 /* libPods-Deepinvest.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33EAB65A7DDFE66AB9F9E6AB /* ExpoModulesProviders */ = {
+			isa = PBXGroup;
+			children = (
+				7D0A6D4554CEDD1E32264DB1 /* Deepinvest */,
+			);
+			name = ExpoModulesProviders;
+			sourceTree = "<group>";
+		};
+		7D0A6D4554CEDD1E32264DB1 /* Deepinvest */ = {
+			isa = PBXGroup;
+			children = (
+				020004C8731480B49FEBEA33 /* ExpoModulesProvider.swift */,
+			);
+			name = Deepinvest;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -93,12 +103,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* securitykhai */,
+				13B07FAE1A68108700A75B9A /* Deepinvest */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				A40E58BACCA8C9FB051FDE47 /* Pods */,
-				27F394760B431744C0EAA043 /* ExpoModulesProviders */,
+				23272B715ABCF8CA66B3A365 /* Pods */,
+				33EAB65A7DDFE66AB9F9E6AB /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -108,19 +118,9 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* securitykhai.app */,
+				13B07F961A680F5B00A75B9A /* Deepinvest.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A40E58BACCA8C9FB051FDE47 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				191173644F6F6428DEDE106D /* Pods-securitykhai.debug.xcconfig */,
-				0BF03185C679CA51DBB1F88B /* Pods-securitykhai.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		BB2F792B24A3F905000567C9 /* Supporting */ = {
@@ -129,32 +129,32 @@
 				BB2F792C24A3F905000567C9 /* Expo.plist */,
 			);
 			name = Supporting;
-			path = securitykhai/Supporting;
+			path = Deepinvest/Supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B07F861A680F5B00A75B9A /* securitykhai */ = {
+		13B07F861A680F5B00A75B9A /* Deepinvest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "securitykhai" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Deepinvest" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				A0E8B8A0B56DCB4CD82B1200 /* [Expo] Configure project */,
+				C020D8AFF2890FC737EF22F6 /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				F6324264B1203D5D683AEAA0 /* [CP] Embed Pods Frameworks */,
+				F22776AD814E98CDEE157303 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = securitykhai;
-			productName = securitykhai;
-			productReference = 13B07F961A680F5B00A75B9A /* securitykhai.app */;
+			name = Deepinvest;
+			productName = Deepinvest;
+			productReference = 13B07F961A680F5B00A75B9A /* Deepinvest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -170,7 +170,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "securitykhai" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Deepinvest" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -183,7 +183,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* securitykhai */,
+				13B07F861A680F5B00A75B9A /* Deepinvest */,
 			);
 		};
 /* End PBXProject section */
@@ -196,7 +196,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				53785171822B4FD0B0E5A95E /* PrivacyInfo.xcprivacy in Resources */,
+				52966D07FE564363AE19D7AF /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,7 +233,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-securitykhai-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Deepinvest-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -246,7 +246,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-securitykhai/Pods-securitykhai-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Deepinvest/Pods-Deepinvest-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/AppAuth/AppAuthCore_Privacy.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/ExpoConstants_privacy.bundle",
@@ -289,10 +289,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-securitykhai/Pods-securitykhai-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Deepinvest/Pods-Deepinvest-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A0E8B8A0B56DCB4CD82B1200 /* [Expo] Configure project */ = {
+		C020D8AFF2890FC737EF22F6 /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -309,15 +309,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-securitykhai/expo-configure-project.sh\"\n";
+			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-Deepinvest/expo-configure-project.sh\"\n";
 		};
-		F6324264B1203D5D683AEAA0 /* [CP] Embed Pods Frameworks */ = {
+		F22776AD814E98CDEE157303 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-securitykhai/Pods-securitykhai-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Deepinvest/Pods-Deepinvest-frameworks.sh",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -326,7 +326,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-securitykhai/Pods-securitykhai-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Deepinvest/Pods-Deepinvest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -337,7 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
-				774EFC9785D9316D0C23BB6B /* ExpoModulesProvider.swift in Sources */,
+				5E03FACD24CB549A236F1C28 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,18 +346,18 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 191173644F6F6428DEDE106D /* Pods-securitykhai.debug.xcconfig */;
+			baseConfigurationReference = 1470521B70916B3F771D3CDE /* Pods-Deepinvest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = securitykhai/securitykhai.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Deepinvest/Deepinvest.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
 				);
-				INFOPLIST_FILE = securitykhai/Info.plist;
+				INFOPLIST_FILE = Deepinvest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -370,9 +370,9 @@
 					"-lc++",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = com.khaiduc03.securityuser;
-				PRODUCT_NAME = securitykhai;
-				SWIFT_OBJC_BRIDGING_HEADER = "securitykhai/securitykhai-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepinvest;
+				PRODUCT_NAME = Deepinvest;
+				SWIFT_OBJC_BRIDGING_HEADER = "Deepinvest/Deepinvest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -382,13 +382,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0BF03185C679CA51DBB1F88B /* Pods-securitykhai.release.xcconfig */;
+			baseConfigurationReference = 526225E56CDE37DE8C90687B /* Pods-Deepinvest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = securitykhai/securitykhai.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Deepinvest/Deepinvest.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = securitykhai/Info.plist;
+				INFOPLIST_FILE = Deepinvest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -401,9 +401,9 @@
 					"-lc++",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
-				PRODUCT_BUNDLE_IDENTIFIER = com.khaiduc03.securityuser;
-				PRODUCT_NAME = securitykhai;
-				SWIFT_OBJC_BRIDGING_HEADER = "securitykhai/securitykhai-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepinvest;
+				PRODUCT_NAME = Deepinvest;
+				SWIFT_OBJC_BRIDGING_HEADER = "Deepinvest/Deepinvest-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -537,7 +537,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "securitykhai" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Deepinvest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -546,7 +546,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "securitykhai" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Deepinvest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

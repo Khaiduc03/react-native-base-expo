@@ -1,38 +1,38 @@
 const palette = {
-  neutral100: "#FFFFFF",
-  neutral200: "#F4F2F1",
-  neutral300: "#D7CEC9",
-  neutral400: "#B6ACA6",
-  neutral500: "#978F8A",
-  neutral600: "#564E4A",
-  neutral700: "#3C3836",
-  neutral800: "#191015",
-  neutral900: "#000000",
-
-  primary100: "#F4E0D9",
-  primary200: "#E8C1B4",
-  primary300: "#DDA28E",
-  primary400: "#D28468",
-  primary500: "#C76542",
-  primary600: "#A54F31",
-
+  neutral100: "#F0F0F0",
+  neutral200: "#D9D9D9",
+  neutral300: "#BFBFBF",
+  neutral400: "#8C8C8C",
+  neutral500: "#595959",
+  neutral600: "rgba(67, 67, 67, 1)",
+  neutral700: "#262626",
+  neutral800: "#1F1F1F",
+  neutral900: "#141414",
+  primary100: "#BCE6CE",
+  primary200: "#9CDAB6",
+  primary300: "#6EC994",
+  primary400: "rgba(82, 190, 128, 1)",
+  primary500: "#27AE60",
+  primary600: "#239E57",
+  primary700: "#1C7C44",
+  primary800: "#156035",
+  primary900: "#104928",
   secondary100: "#DCDDE9",
   secondary200: "#BCC0D6",
   secondary300: "#9196B9",
   secondary400: "#626894",
   secondary500: "#41476E",
-
   accent100: "#FFEED4",
   accent200: "#FFE1B2",
   accent300: "#FDD495",
   accent400: "#FBC878",
   accent500: "#FFBB50",
-
-  angry100: "#F2D6CD",
-  angry500: "#C03403",
-
+  angry100: "#FBE6E6",
+  angry500: "#D50000",
   overlay20: "rgba(25, 16, 21, 0.2)",
   overlay50: "rgba(25, 16, 21, 0.5)",
+
+  m3white: "#FFFFFF",
 } as const
 
 export const colors = {
@@ -49,19 +49,22 @@ export const colors = {
   /**
    * The default text color in many components.
    */
-  text: palette.neutral800,
+  text: "#FFFFFF",
+
+  textBlur: "rgba(255, 255, 255, 0.75)",
   /**
    * Secondary text information.
    */
-  textDim: palette.neutral600,
+  textDim: "rgba(255, 255, 255, 0.6)",
+
   /**
    * The default color of the screen background.
    */
-  background: palette.neutral200,
+  background: "#070709",
   /**
    * The default border color.
    */
-  border: palette.neutral400,
+  border: "#BABABA54",
   /**
    * The main tinting color.
    */
@@ -82,4 +85,6 @@ export const colors = {
    * Error Background.
    */
   errorBackground: palette.angry100,
+  primary: palette.primary500,
+  white: "#fff",
 } as const

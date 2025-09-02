@@ -1,4 +1,4 @@
-package com.khaiduc03.securityuser
+package com.deepinvest
 
 import android.app.Application
 import android.content.res.Configuration

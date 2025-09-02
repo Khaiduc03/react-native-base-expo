@@ -1,4 +1,4 @@
-package com.khaiduc03.securityuser
+package com.deepinvest
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build

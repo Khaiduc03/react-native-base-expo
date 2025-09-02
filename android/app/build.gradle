@@ -87,9 +87,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.khaiduc03.securityuser'
+    namespace 'com.deepinvest'
     defaultConfig {
-        applicationId 'com.khaiduc03.securityuser'
+        applicationId 'com.deepinvest'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

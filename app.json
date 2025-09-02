@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "security-khai",
-    "slug": "security-khai",
-    "scheme": "security-khai",
+    "name": "Deepinvest",
+    "slug": "Deepinvest",
+    "scheme": "Deepinvest",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
@@ -15,7 +15,7 @@
     "assetBundlePatterns": ["**/*"],
     "android": {
       "icon": "./assets/images/app-icon-android-legacy.png",
-      "package": "com.khaiduc03.securityuser",
+      "package": "com.deepinvest",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/app-icon-android-adaptive-foreground.png",
         "backgroundImage": "./assets/images/app-icon-android-adaptive-background.png"
@@ -32,7 +32,7 @@
     "ios": {
       "icon": "./assets/images/app-icon-ios.png",
       "supportsTablet": true,
-      "bundleIdentifier": "com.khaiduc03.securityuser",
+      "bundleIdentifier": "com.deepinvest",
       "splash": {
         "backgroundColor": "#000",
         "image": "./assets/images/app-icon-ios.png",

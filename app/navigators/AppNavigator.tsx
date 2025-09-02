@@ -14,6 +14,7 @@ import { WelcomeScreen } from "@/screens/WelcomeScreen"
 import { useAppTheme } from "@/theme/context"
 
 import { navigationRef, useBackButtonHandler } from "./navigationUtilities"
+import { LoginScreen } from "@/screens/auth/LoginScreen"
 
 /**
  * This type allows TypeScript to know what routes are defined in this navigator
@@ -26,7 +27,7 @@ import { navigationRef, useBackButtonHandler } from "./navigationUtilities"
  */
 export type AppStackParamList = {
   Welcome: undefined
-  // 🔥 Your screens go here
+  LoginScreen: undefined
   // IGNITE_GENERATOR_ANCHOR_APP_STACK_PARAM_LIST
 }
 
@@ -58,9 +59,12 @@ const AppStack = () => {
           backgroundColor: colors.background,
         },
       }}
+      initialRouteName="LoginScreen"
     >
       <Stack.Screen name="Welcome" component={WelcomeScreen} />
       {/** 🔥 Your screens go here */}
+
+      <Stack.Screen name="LoginScreen" component={LoginScreen} />
       {/* IGNITE_GENERATOR_ANCHOR_APP_STACK_SCREENS */}
     </Stack.Navigator>
   )

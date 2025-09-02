@@ -1,5 +1,5 @@
 import { FC } from "react"
-import { Image, ImageStyle, TextStyle, View, ViewStyle } from "react-native"
+import { Button, Image, ImageStyle, TextStyle, View, ViewStyle } from "react-native"
 
 import { Screen } from "@/components/Screen"
 import { Text } from "@/components/Text"
@@ -8,13 +8,14 @@ import { useAppTheme } from "@/theme/context"
 import { $styles } from "@/theme/styles"
 import type { ThemedStyle } from "@/theme/types"
 import { useSafeAreaInsetsStyle } from "@/utils/useSafeAreaInsetsStyle"
+import { useNavigation } from "@react-navigation/native"
 
 const welcomeLogo = require("@assets/images/logo.png")
 const welcomeFace = require("@assets/images/welcome-face.png")
 
 export const WelcomeScreen: FC = function WelcomeScreen() {
   const { themed, theme } = useAppTheme()
-
+  const navigation = useNavigation()
   const $bottomContainerInsets = useSafeAreaInsetsStyle(["bottom"])
 
   return (
@@ -35,6 +36,7 @@ export const WelcomeScreen: FC = function WelcomeScreen() {
           tintColor={theme.colors.palette.neutral900}
         />
       </View>
+      <Button title="Login" onPress={() => navigation.navigate("LoginScreen")} />
 
       <View style={themed([$bottomContainer, $bottomContainerInsets])}>
         <Text tx="welcomeScreen:postscript" size="md" />

@@ -31,6 +31,8 @@ import { ThemeProvider } from "./theme/context"
 import { customFontsToLoad } from "./theme/typography"
 import { loadDateFnsLocale } from "./utils/formatDate"
 import * as storage from "./utils/storage"
+import { initializeGoogleSignIn } from "./utils/initializeGoogleSignIn"
+import { useInitialRootStore } from "./models/helpers/useStores"
 
 export const NAVIGATION_PERSISTENCE_KEY = "NAVIGATION_STATE"
 
@@ -66,7 +68,9 @@ export function App() {
     onNavigationStateChange,
     isRestored: isNavigationStateRestored,
   } = useNavigationPersistence(storage, NAVIGATION_PERSISTENCE_KEY)
-
+  const { rehydrated } = useInitialRootStore(() => {
+    console.log("rehydrated")
+  })
   const [areFontsLoaded, fontLoadError] = useFonts(customFontsToLoad)
   const [isI18nInitialized, setIsI18nInitialized] = useState(false)
 
@@ -74,6 +78,7 @@ export function App() {
     initI18n()
       .then(() => setIsI18nInitialized(true))
       .then(() => loadDateFnsLocale())
+      .then(() => initializeGoogleSignIn())
   }, [])
 
   // Before we show the app, we have to wait for our state to be ready.
@@ -82,7 +87,12 @@ export function App() {
   // In iOS: application:didFinishLaunchingWithOptions:
   // In Android: https://stackoverflow.com/a/45838109/204044
   // You can replace with your own loading component if you wish.
-  if (!isNavigationStateRestored || !isI18nInitialized || (!areFontsLoaded && !fontLoadError)) {
+  if (
+    !isNavigationStateRestored ||
+    !isI18nInitialized ||
+    (!areFontsLoaded && !fontLoadError) ||
+    !rehydrated
+  ) {
     return null
   }
 

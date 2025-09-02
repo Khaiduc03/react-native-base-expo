@@ -5,6 +5,8 @@
  *
  * https://reactnative.dev/docs/security#storing-sensitive-info
  */
+import { ENV } from "./env"
+
 export default {
-  API_URL: "https://api.rss2json.com/v1/",
+  ...ENV.development,
 }

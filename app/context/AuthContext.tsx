@@ -10,6 +10,7 @@ export type AuthContextType = {
   setAuthEmail: (email: string) => void
   logout: () => void
   validationError: string
+  login: (userData: any) => void
 }
 
 export const AuthContext = createContext<AuthContextType | null>(null)
